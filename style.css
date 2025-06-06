@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.form {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input[type="number"],
+.result {
+  width: 25%;
+  padding: 6px 10px;
+  margin: 20px;
+}
+input[type="number"]:focus {
+  outline: none;
+}
+.buttons {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.result {
+  border: 1px solid;
+  border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
